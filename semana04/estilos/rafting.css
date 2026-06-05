@@ -1,0 +1,166 @@
+:root {
+  --cor-primaria: #055a05;
+  --cor-secundaria: #f4a261;
+  --cor-destaque1: #264653;
+  --cor-destaque2: #e9c46a;
+  --fonte-titulo: "Times New Roman", "Georgia", serif;
+  --fonte-body: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fonte-body);
+  color: var(--cor-destaque1);
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--cor-primaria);
+  color: var(--cor-destaque2);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .logo {
+  width: 60px;
+  height: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+h1, h2 {
+  font-family: var(--fonte-titulo);
+  color: var(--cor-primaria);
+  text-align: center;
+}
+
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--cor-destaque1);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin-left: 15px;
+}
+
+.historia-section {
+  display: block;
+}
+
+.galeria-aventuras {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.galeria-aventuras figure {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.galeria-aventuras img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.galeria-aventuras figcaption {
+  font-size: 0.85rem;
+  margin-top: 5px;
+  font-weight: bold;
+  color: var(--cor-destaque1);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f1f1f1;
+  border-top: 2px solid black;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer .redes-sociais {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+footer .redes-sociais a {
+  text-decoration: none;
+}
+
+footer .redes-sociais img {
+  width: 24px;
+  height: 24px;
+}
+
+p {
+  padding: 0;
+  line-height: 1.6;
+}
