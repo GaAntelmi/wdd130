@@ -127,8 +127,6 @@ header nav a:hover{
     line-height:1.6;
 }
 
-/* ---------- AVENTURAS ---------- */
-
 .aventuras-section{
     margin-top:35px;
 }
@@ -176,11 +174,11 @@ footer p{
     margin:0;
 }
 
-..socialmedia{
+.socialmedia{
     display:flex;
     gap:15px;
 }
 
-..socialmedia img{
+.socialmedia img{
     width:32px;
 }
