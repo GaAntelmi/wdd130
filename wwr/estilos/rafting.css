@@ -175,11 +175,11 @@ footer p{
     margin:0;
 }
 
-.redes-sociais{
+..socialmedia{
     display:flex;
     gap:15px;
 }
 
-.redes-sociais img{
+..socialmedia img{
     width:32px;
 }
