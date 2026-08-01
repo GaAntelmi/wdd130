@@ -34,6 +34,7 @@ header{
     align-items:center;
     background:var(--cor-primaria);
     padding:15px 25px;
+    color:#fff;
 }
 
 .logo{
@@ -55,7 +56,8 @@ header nav a{
 }
 
 header nav a:hover{
-    background:var(--cor-secundaria);
+    background:var(--cor-destaque2);
+    color:var(--cor-destaque1);
 }
 
 /* ---------- HERO ---------- */
