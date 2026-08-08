@@ -27,6 +27,7 @@ footer {
 }
 
 
+
 header {
   background-color: var(--cor-primaria);
   color: var(--cor-destaque2);
@@ -64,16 +65,23 @@ header nav a:hover {
 }
 
 
+
 h1,
 h2 {
   font-family: var(--fonte-titulo);
-  color: var(--cor-primaria);
   text-align: center;
 }
 
 h1 {
   margin-bottom: 20px;
+  color: var(--cor-primaria);
 }
+
+h2 {
+  color: var(--cor-primaria);
+  margin-bottom: 15px;
+}
+
 
 
 p {
@@ -121,6 +129,7 @@ p {
 }
 
 
+
 .historia-section {
   display: block;
   margin: 20px 0;
@@ -129,7 +138,7 @@ p {
 }
 
 .historia-section h2 {
-  margin-bottom: 10px;
+  color: var(--cor-primaria);
 }
 
 
@@ -172,6 +181,7 @@ p {
 }
 
 .contato-info h2 {
+  color: var(--cor-destaque1);
   margin-bottom: 15px;
 }
 
@@ -179,12 +189,15 @@ p {
   margin-bottom: 15px;
 }
 
+
+
 .mapa {
   margin: 0;
   padding: 0;
 }
 
 .mapa h2 {
+  color: var(--cor-destaque1);
   margin-bottom: 15px;
 }
 
@@ -194,15 +207,22 @@ p {
   border: 0;
 }
 
+
+
 .equipe {
   margin: 20px 0;
   padding: 20px;
   background-color: var(--cor-destaque1);
+  color: #fff;
 }
 
 .equipe h2 {
   color: var(--cor-destaque2);
   margin-bottom: 20px;
+}
+
+.equipe p {
+  color: #fff;
 }
 
 .equipe-grid {
@@ -234,6 +254,7 @@ p {
 }
 
 
+
 .formulario {
   margin: 20px 0;
   padding: 20px;
@@ -241,6 +262,7 @@ p {
 }
 
 .formulario h2 {
+  color: var(--cor-destaque1);
   margin-bottom: 20px;
 }
 
@@ -312,7 +334,6 @@ p {
   color: var(--cor-destaque2);
 }
 
-
 footer {
   display: flex;
   justify-content: space-between;
@@ -326,6 +347,7 @@ footer {
 footer p {
   margin: 0;
   padding: 0;
+  color: var(--cor-destaque1);
 }
 
 footer .redes-sociais {
