@@ -30,47 +30,41 @@
 
     <main>
 
-        <section class="contato-intro">
-            <h1>Fale Conosco</h1>
+        <h1>Fale Conosco - Rio Aventura Rafting</h1>
 
-            <p>
-                Entre em contato com a Rio Aventura Rafting para tirar dúvidas,
-                fazer uma reserva ou conhecer melhor nossas aventuras.
-                Nossa equipe está pronta para ajudar você a planejar uma
-                experiência inesquecível.
-            </p>
-        </section>
+        <section class="contato-info">
 
-        <section class="informacoes-contato">
-
-            <div class="dados-contato">
-
+            <div>
                 <h2>Entre em contato</h2>
 
                 <p>
+                    Estamos prontos para ajudar você a planejar sua próxima
+                    aventura. Entre em contato conosco para tirar dúvidas,
+                    consultar reservas ou enviar sugestões.
+                </p>
+
+                <p>
                     <strong>Endereço:</strong><br>
-                    Avenida das Águas, 1500<br>
-                    Sorocaba - SP<br>
-                    CEP 18000-000
+                    Rua das Águas, 150<br>
+                    Sorocaba, SP - 18000-000
                 </p>
 
                 <p>
                     <strong>Telefone:</strong><br>
-                    (15) 3333-5555
+                    (15) 3333-4444
                 </p>
 
                 <p>
                     <strong>E-mail:</strong><br>
                     contato@rioaventurarafting.com
                 </p>
-
             </div>
 
             <div class="mapa">
                 <h2>Onde estamos</h2>
 
-                <iframe src="https://www.google.com/maps?q=Sorocaba%2C%20SP&output=embed"
-                    title="Mapa mostrando a localização da Rio Aventura Rafting em Sorocaba" loading="lazy">
+                <iframe src="https://www.google.com/maps?q=Sorocaba%20SP&output=embed"
+                    title="Mapa da localização da Rio Aventura Rafting">
                 </iframe>
             </div>
 
@@ -80,34 +74,26 @@
 
             <h2>Nossa equipe</h2>
 
-            <p>
-                Conheça alguns dos profissionais responsáveis por tornar
-                nossas aventuras seguras e divertidas.
-            </p>
-
-            <div class="equipe-galeria">
+            <div class="equipe-grid">
 
                 <figure>
                     <img src="imagens/z-boat.png" alt="Carlos, guia de rafting">
                     <figcaption>
-                        Carlos Silva<br>
-                        Guia de Rafting
+                        Carlos - Guia de Rafting
                     </figcaption>
                 </figure>
 
                 <figure>
                     <img src="imagens/rafting.jpg" alt="Mariana, instrutora de rafting">
                     <figcaption>
-                        Mariana Oliveira<br>
-                        Instrutora de Rafting
+                        Mariana - Instrutora de Rafting
                     </figcaption>
                 </figure>
 
                 <figure>
                     <img src="imagens/z-rapids-trees.png" alt="Rafael, coordenador de segurança">
                     <figcaption>
-                        Rafael Santos<br>
-                        Coordenador de Segurança
+                        Rafael - Coordenador de Segurança
                     </figcaption>
                 </figure>
 
@@ -115,61 +101,59 @@
 
         </section>
 
-        <section class="formulario-contato">
+        <section class="formulario">
 
             <h2>Envie uma mensagem</h2>
 
             <form action="#" method="post">
 
+                <label for="nome">
+                    Nome:
+                </label>
+
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">
+                    E-mail:
+                </label>
+
+                <input type="email" id="email" name="email" required>
+
                 <fieldset>
 
-                    <legend>Informações pessoais</legend>
+                    <legend>Finalidade da mensagem:</legend>
 
-                    <label for="nome">Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required>
-
-                </fieldset>
-
-                <fieldset>
-
-                    <legend>Finalidade da mensagem</legend>
-
-                    <label>
-                        <input type="radio" name="finalidade" value="consulta-geral" required>
+                    <label for="consulta-geral">
+                        <input type="radio" id="consulta-geral" name="finalidade" value="consulta-geral" required>
                         Consulta Geral
                     </label>
 
-                    <label>
-                        <input type="radio" name="finalidade" value="reserva">
+                    <label for="pergunta-reserva">
+                        <input type="radio" id="pergunta-reserva" name="finalidade" value="pergunta-reserva">
                         Pergunta sobre Reserva
                     </label>
 
-                    <label>
-                        <input type="radio" name="finalidade" value="sugestao">
+                    <label for="sugestao-site">
+                        <input type="radio" id="sugestao-site" name="finalidade" value="sugestao-site">
                         Sugestão de Site
                     </label>
 
                 </fieldset>
 
-                <fieldset>
+                <label for="mensagem">
+                    Mensagem:
+                </label>
 
-                    <legend>Mensagem</legend>
+                <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
 
-                    <label for="mensagem">Escreva sua mensagem:</label>
-
-                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
-
-                </fieldset>
-
-                <label class="newsletter">
-                    <input type="checkbox" name="newsletter" value="sim">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="sim">
                     Quero receber a newsletter mensal
                 </label>
 
-                <button type="submit">Enviar mensagem</button>
+                <button type="submit">
+                    Enviar mensagem
+                </button>
 
             </form>
 
@@ -179,20 +163,22 @@
 
     <footer>
 
-        <p>&copy; 2026 Rio Aventura Rafting</p>
+        <p>
+            &copy; 2026 Rio Aventura Rafting - Gabriel Santos Antelmi
+        </p>
 
-        <nav class="socialmedia">
+        <nav class="redes-sociais">
 
             <a href="https://facebook.com">
-                <img src="imagens/facebook-bw.jpg" alt="Facebook">
+                <img src="imagens/facebook-bw.jpg" alt="Página da Rio Aventura Rafting no Facebook">
             </a>
 
-            <a href="https://web.whatsapp.com">
-                <img src="imagens/whatsapp-bw.jpg" alt="WhatsApp">
+            <a href="https://web.whatsapp.com/">
+                <img src="imagens/whatsapp-bw.jpg" alt="Contato da Rio Aventura Rafting pelo WhatsApp">
             </a>
 
             <a href="https://instagram.com">
-                <img src="imagens/instagram-bw.jpg" alt="Instagram">
+                <img src="imagens/instagram-bw.jpg" alt="Página da Rio Aventura Rafting no Instagram">
             </a>
 
         </nav>
