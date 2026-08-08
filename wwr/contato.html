@@ -4,17 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre Nós - Rio Aventura Rafting</title>
+
+    <title>Fale Conosco - Rio Aventura Rafting</title>
+
     <meta name="description"
-        content="Conheça a história, a missão e a equipe por trás da melhor empresa de rafting em corredeiras do país.">
-    <meta name="author" content="Seu Nome Completo">
+        content="Entre em contato com a Rio Aventura Rafting para tirar dúvidas, fazer reservas, enviar sugestões e conhecer nossos serviços.">
+
+    <meta name="author" content="Gabriel Santos Antelmi">
+
     <link rel="stylesheet" href="estilos/rafting.css">
 </head>
 
 <body>
 
     <header>
-        <img class="logo" src="imagens/z-rapids-trees.png" alt="Logotipo da Empresa de Rafting">
+        <img class="logo" src="imagens/z-rapids-trees.png" alt="Logotipo da Rio Aventura Rafting">
+
         <nav>
             <a href="index.html">Página Inicial</a>
             <a href="sobre.html">Sobre Nós</a>
@@ -24,64 +29,174 @@
     </header>
 
     <main>
-        <div class="hero">
-            <img src="imagens/rafting.jpg" alt="Equipe praticando rafting em águas agitadas">
-            <h1>Rio Aventura Rafting</h1>
-            <article>
-                <img src="imagens/z-boat.png" alt="Guia de rafting">
-                <p>Nossa missão é guiar você e sua família pelas corredeiras mais emocionantes com total segurança e
-                    respeito ao meio ambiente. Unimos adrenalina e contato puro com a natureza em experiências
-                    inesquecíveis.</p>
-            </article>
-        </div>
 
-        <section class="historia-section">
-            <h2>História</h2>
-            <p>Nascemos em 2015 da paixão de três amigos ecoturistas que queriam trazer um novo padrão de segurança e
-                diversão para o rafting nacional. Começamos pequenos e hoje operamos nos rios mais bonitos da região.
+        <section class="contato-intro">
+            <h1>Fale Conosco</h1>
+
+            <p>
+                Entre em contato com a Rio Aventura Rafting para tirar dúvidas,
+                fazer uma reserva ou conhecer melhor nossas aventuras.
+                Nossa equipe está pronta para ajudar você a planejar uma
+                experiência inesquecível.
             </p>
         </section>
 
-        <section class="aventuras-section">
-            <h2>A aventura está te esperando!</h2>
-            <div class="galeria-aventuras">
-                <figure>
-                    <img src="imagens/salto.jpg" alt="salt do rio negro">
-                    <figcaption>Salto do Rio Negro</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/parapa.jpg">
-                    <figcaption>Rio Paranapanema</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/rio-jacare.jpg" alt="Corredeira do Rio Jacaré">
-                    <figcaption>Rio Jacaré</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/garganta.jpg" alt="Garganta do Diabo">
-                    <figcaption>Garganta do Diabo</figcaption>
-                </figure>
-                <figure>
-                    <img src="imagens/tres-rios.jpg" alt="Corredeira dos Três Rios">
-                    <figcaption>Três Rios</figcaption>
-                </figure>
+        <section class="informacoes-contato">
+
+            <div class="dados-contato">
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    <strong>Endereço:</strong><br>
+                    Avenida das Águas, 1500<br>
+                    Sorocaba - SP<br>
+                    CEP 18000-000
+                </p>
+
+                <p>
+                    <strong>Telefone:</strong><br>
+                    (15) 3333-5555
+                </p>
+
+                <p>
+                    <strong>E-mail:</strong><br>
+                    contato@rioaventurarafting.com
+                </p>
+
             </div>
+
+            <div class="mapa">
+                <h2>Onde estamos</h2>
+
+                <iframe src="https://www.google.com/maps?q=Sorocaba%2C%20SP&output=embed"
+                    title="Mapa mostrando a localização da Rio Aventura Rafting em Sorocaba" loading="lazy">
+                </iframe>
+            </div>
+
         </section>
+
+        <section class="equipe">
+
+            <h2>Nossa equipe</h2>
+
+            <p>
+                Conheça alguns dos profissionais responsáveis por tornar
+                nossas aventuras seguras e divertidas.
+            </p>
+
+            <div class="equipe-galeria">
+
+                <figure>
+                    <img src="imagens/z-boat.png" alt="Carlos, guia de rafting">
+                    <figcaption>
+                        Carlos Silva<br>
+                        Guia de Rafting
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/rafting.jpg" alt="Mariana, instrutora de rafting">
+                    <figcaption>
+                        Mariana Oliveira<br>
+                        Instrutora de Rafting
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="imagens/z-rapids-trees.png" alt="Rafael, coordenador de segurança">
+                    <figcaption>
+                        Rafael Santos<br>
+                        Coordenador de Segurança
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </section>
+
+        <section class="formulario-contato">
+
+            <h2>Envie uma mensagem</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>Informações pessoais</legend>
+
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Finalidade da mensagem</legend>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="consulta-geral" required>
+                        Consulta Geral
+                    </label>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="reserva">
+                        Pergunta sobre Reserva
+                    </label>
+
+                    <label>
+                        <input type="radio" name="finalidade" value="sugestao">
+                        Sugestão de Site
+                    </label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Mensagem</legend>
+
+                    <label for="mensagem">Escreva sua mensagem:</label>
+
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+                </fieldset>
+
+                <label class="newsletter">
+                    <input type="checkbox" name="newsletter" value="sim">
+                    Quero receber a newsletter mensal
+                </label>
+
+                <button type="submit">Enviar mensagem</button>
+
+            </form>
+
+        </section>
+
     </main>
 
     <footer>
+
         <p>&copy; 2026 Rio Aventura Rafting</p>
+
         <nav class="socialmedia">
+
             <a href="https://facebook.com">
-                <img src="imagens/facebook-bw.jpg" alt="Ícone do Facebook">
+                <img src="imagens/facebook-bw.jpg" alt="Facebook">
             </a>
-            <a href="https://web.whatsapp.com/">
-                <img src="imagens/whatsapp-bw.jpg" alt="Ícone do Whatsapp">
+
+            <a href="https://web.whatsapp.com">
+                <img src="imagens/whatsapp-bw.jpg" alt="WhatsApp">
             </a>
+
             <a href="https://instagram.com">
-                <img src="imagens/instagram-bw.jpg" alt="Ícone do Instagram">
+                <img src="imagens/instagram-bw.jpg" alt="Instagram">
             </a>
+
         </nav>
+
     </footer>
 
 </body>
